@@ -1,4 +1,4 @@
-# go_grpc
+# go-grpc
 
 Go와 gRPC를 사용해보자.
 
