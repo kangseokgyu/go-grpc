@@ -18,6 +18,9 @@ jobs:
       with:
         go-version: 1.18
 
+    - name: Get modules
+      run: go get github.com/dyatlov/go-opengraph/opengraph
+
     - name: Build
       run: go build -v ./cmd/server/main.go
 
